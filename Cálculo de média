@@ -17,7 +17,7 @@ Deve retornar 0 se não receber nenhum parâmetro*/
       }  
       total += arguments[i];
     }
-    return total/i || 0
+    return (total/i) || 0
   }
     let media = calcularMedia( )//digite aqui os números, separados por vírgula
     console.log(`Média: ${media}`)
